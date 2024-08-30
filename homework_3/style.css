@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1215px;
+}
+
+html {
+    background-image: url(background.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url(Verdana.ttf);
+}
+
+@font-face {
+    font-family: "Verdana-Bold";
+    src: url(Verdana-Bold.ttf);
+}
+
+header {
+    margin-top: 38px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .title-logo a {
+    float: left;
+    color: #ffffff;
+}
+
+header .title-text a:hover {
+    color: #f26522;
+}
+
+header .title-top a {
+    font-family: "Verdana-Bold";
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+header .title-bottom a {
+    font-family: "Verdana-Bold";
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+header .right {
+    font-family: "Verdana";
+    color: #ffffff;
+    font-size: 20px;
+}
+
+header .bottom-right {
+    float: right;
+}
+
+section {
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+section .img-container {
+    display: inline;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+section .first-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+section img {
+    border: 2px solid;
+    border-image-source: linear-gradient(white,black);
+    border-image-slice: 1;
+}
+
+section .second-block {
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .img-item a {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Verdana";
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+section .img-item a:hover {
+    color: #f26522;
+}
+
+section .details {
+    
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Verdana";
+    font-size: 13px;
+    margin-top: 60px;
+}
+
