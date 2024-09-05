@@ -67,6 +67,7 @@ section .leftBorderLinks button {
     display: block;
     margin: auto 0;
     padding: 15px 0px;
+    padding-left: 20px;
 }
 
 section .leftBorderLinks button:hover {
