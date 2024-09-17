@@ -2,7 +2,6 @@
 
 * {
     margin: 0 auto;
-    padding: 0 auto;
 }
 
 html {
@@ -10,7 +9,7 @@ html {
 }
 
 table {
-    margin-top: 35px;
+    margin-top: 100px;
 }
 
 table, tr, td {
@@ -18,10 +17,11 @@ table, tr, td {
     border-collapse: collapse;
 }
 
-table .title {
+table, td {
     background-color: #fafafa;
-    height: 120px;
-    width: 310px;
+}
+
+table .title {
     padding-top: 53px;
 }
 
@@ -37,6 +37,7 @@ table .title-bottom {
     font-size: 30px;
     color: #484848;
     text-align: center;
+    height: 70px;
 }
 
 table .standard{
@@ -45,8 +46,6 @@ table .standard{
     color: #fff;
     background-color: #89c331;
     text-align: center;
-    height: 70px;
-    width: 240px;
 }
 
 table .ultimate{
@@ -55,8 +54,6 @@ table .ultimate{
     color: #fff;
     background-color: #f04a56;
     text-align: center;
-    height: 70px;
-    width: 240px;
 }
 
 table .premium{
@@ -65,8 +62,6 @@ table .premium{
     color: #fff;
     background-color: #20807c;
     text-align: center;
-    height: 70px;
-    width: 240px;
 }
 
 table .cost {
@@ -110,8 +105,8 @@ table .storage {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
+    width: 315px;
 }
 
 table .min {
@@ -119,7 +114,6 @@ table .min {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -128,7 +122,6 @@ table .mid {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -137,7 +130,6 @@ table .max {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -151,7 +143,6 @@ table .band {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -169,7 +160,6 @@ table .unlimited {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -183,7 +173,6 @@ table .email {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -192,7 +181,6 @@ table .twenty-five {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -201,7 +189,6 @@ table .forty-five {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -210,7 +197,6 @@ table .sixty-five {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -224,7 +210,6 @@ table .support {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -233,7 +218,6 @@ table .every-day {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -247,7 +231,6 @@ table .products {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -256,7 +239,6 @@ table .twenty {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -265,7 +247,6 @@ table .thirty {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -274,7 +255,6 @@ table .sixty {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -288,7 +268,6 @@ table .users {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -297,7 +276,6 @@ table .one {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -306,7 +284,6 @@ table .ten {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -315,7 +292,6 @@ table .fifteen {
     font-weight: normal;
     font-size: 15px;
     color: #484848;
-    width: 315px;
     text-align: center;
 }
 
@@ -382,7 +358,7 @@ table .buy-ultimate button {
 }
 
 table .buy-ultimate button:hover {
-    background-color: #d03a46;
+    background-color: #b71c1c;
 }
 
 table .buy-premium button {

@@ -24,19 +24,26 @@ html {
     src: url(Verdana-Bold.ttf);
 }
 
+.float-right-item {
+    float: right;
+}
+
+.float-left-item {
+    float: left;
+}
+
 header {
     margin-top: 38px;
     margin-left: 75px;
     margin-right: 75px;
 }
 
-.d-flex {
-    display: flex;
+.container div {
+    display: inline-block;
 }
 
-.container {
-    align-items: center;
-    justify-content: space-between;
+.logo-link {
+    padding-top: 5px;
 }
 
 header .title-logo a {
@@ -50,6 +57,10 @@ header .left {
 
 header .left:hover {
     filter: brightness(0) saturate(100%) invert(42%) sepia(80%) saturate(1782%) hue-rotate(350deg) brightness(100%) contrast(91%);
+}
+
+header .title-text {
+    display: block;
 }
 
 header .title-text a:hover {
@@ -78,6 +89,10 @@ header .right {
     font-size: 20px;
 }
 
+header .right div {
+    display: block;
+}
+
 header .bottom-right {
     float: right;
 }
@@ -89,75 +104,115 @@ section {
 }
 
 section .img-container {
-    display: inline;
-    width: 33.33%;
+    display: block;
+    width: 100%;
     box-sizing: border-box;
+    text-align: center;
 }
 
 section .first-block {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    width: 100%;
+    margin-top: 45px;
 }
 
 section img {
-    border: 2px solid;
+    border: 1px solid;
     border-image-source: linear-gradient(white,black);
     border-image-slice: 1;
 }
 
-section .details {
-    display: none;
+section .image {
+    display: block;
+    position: relative;
 }
 
-section .img-item:hover .details {
+section .image .content {
     position: absolute;
-    display: block;
-    color: #ffffff;
-    font-family: "Verdana";
-    background-color: #f26522;
-    height: 62px;
-    width: 299px;
-    margin-top: 142px;
-    padding-left: 20px;
+    bottom: 0px;
+    left: 0px;
 }
 
 section .details-top {
     font-size: 13px;
+    padding: 0 25px;
+    text-align: start;
+}
+
+section .details-top, .details-bottom p {
+    margin: 0;
 }
 
 section .details-bottom {
     font-size: 23px;
-    margin-top: -26px;
+    padding: 0 25px;
+    text-align: start;
+    margin-top: -10px;
 }
 
 section .view-details::after {
     content: "View Details >";
     font-size: 15px;
     float: right;
-    margin-top: -45px;
     padding-right: 22px;
+    margin-top: -30px;
 }
 
 section .second-block {
-    margin-top: 95px;
+    margin-top: 65px;
     display: flex;
     justify-content: space-between;
 }
 
-section .img-item a {
+section .img-item a:hover {
+    color: #f26522;
+}
+
+section .main-image {
+    position: relative;
+    overflow: hidden;
+    height: 202px;
+}
+
+section .main-image .on-image-content {
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    color: #ffffff;
+    background-color: #f26522;
+    width: 100%;
+    height: 75px;
+    transition: bottom 0.1s ease;
+}
+
+section .image-item .image-title {
+    padding: 20px 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-family: "Verdana";
     text-decoration: none;
     color: #ffffff;
-    padding-top: 10px;
     font-size: 20px;
 }
 
-section .img-item a:hover {
+section .image-item .image-title a {
+    text-decoration: none;
+    color: white;
+}
+
+section .image-item .image-title a:hover {
     color: #f26522;
+}
+
+section .first-block .image-item {
+    display: inline-block;
+}
+
+section .first-block .image-item:hover {
+    cursor: pointer;
+}
+
+section .first-block .image-item:hover .main-image .on-image-content {
+    bottom: 0;
 }
 
 footer {
@@ -167,4 +222,3 @@ footer {
     font-size: 13px;
     margin-top: 60px;
 }
-

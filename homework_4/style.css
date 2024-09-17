@@ -28,7 +28,6 @@ html {
 
 header .background {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 1920px;
     height: 70px;
     margin-top: -52px;
 }
@@ -330,6 +329,10 @@ section .form .checkbox label a{
 
 section .form .checkbox label a:hover{
     text-decoration: underline;
+}
+
+section .form .checkbox label {
+    cursor: pointer;
 }
 
 section .form .submit input{
