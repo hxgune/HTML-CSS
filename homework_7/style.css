@@ -7,7 +7,7 @@
 }
 
 section {
-    perspective: 800px;
+    perspective: 600px;
 }
 
 section .text {
@@ -17,6 +17,7 @@ section .text {
     animation-name: star-wars;
     animation-duration: 30s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 section .text p {
@@ -33,7 +34,7 @@ section .text p {
     }
     100% {
         top: -2000px;
-        transform: rotateX(50deg) translateZ(-1000px);
+        transform: rotateX(50deg) translateZ(-1500px);
     }
 }
 
