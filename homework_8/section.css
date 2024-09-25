@@ -140,6 +140,11 @@ section .testimonials .undertitle {
     color: #fff;
 }
 
+section .testimonials .text-container {
+    display: flex;
+    flex-direction: column;
+}
+
 section .testimonials .text {
     font-family: "Open Sans";
     font-style: italic;
@@ -155,8 +160,7 @@ section .testimonials .autor {
     font-size: 18px;
     color: #c8c1c1;
     margin-top: 25px;
-    text-align: right;
-    width: 1350px;
+    margin-left: 575px;
 }
 
 section .why {

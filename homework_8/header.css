@@ -14,6 +14,7 @@ header .company-panel {
     background-color: #fff;
     width: 100%;
     height: 110px;
+    justify-content: center;
 }
 
 header .company-panel .header-title {
@@ -21,8 +22,6 @@ header .company-panel .header-title {
     font-weight: 400;
     font-size: 48px;
     color: #424f57;
-    padding-left: 300px;
-    padding-right: 185px;
 }
 
 header .company-panel .header-title .header-blue {
@@ -36,7 +35,7 @@ header .company-panel .header-links a{
     font-weight: bold;
     color: #3e4c4e;
     text-decoration: none;
-    padding-left: 60px;
+    margin-left: 60px;
     font-size: 20px;
 }
 
