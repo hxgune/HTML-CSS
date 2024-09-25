@@ -234,6 +234,7 @@ section .form .first-name input{
 
 section .form .first-name input:focus {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    outline: none;
 }
 
 section .form .last-name input{
@@ -251,6 +252,7 @@ section .form .last-name input{
 
 section .form .last-name input:focus {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    outline: none;
 }
 
 section .form .email input{
@@ -268,6 +270,7 @@ section .form .email input{
 
 section .form .email input:focus {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    outline: none;
 }
 
 section .form .password input{
@@ -285,6 +288,7 @@ section .form .password input{
 
 section .form .password input:focus {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    outline: none;
 }
 
 section .form .confirm input{
@@ -302,6 +306,7 @@ section .form .confirm input{
 
 section .form .confirm input:focus {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    outline: none;
 }
 
 section .form .checkbox input{
